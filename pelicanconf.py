@@ -6,15 +6,20 @@ from __future__ import unicode_literals
 THEME = "themes/Flex"
 
 AUTHOR = '彭斐'
-SITEDESCRIPTION = '非文随想'
-SITENAME = '非文'
+SITEDESCRIPTION = 'QCA technology research team.'
+SITENAME = 'HFUT QCA'
 SITEURL = ''
 SITELOGO = SITEURL + '/images/profile.jpg'
 
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
 
+USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
 
 TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = 'ch'
@@ -33,8 +38,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/fpeng1985'),
+          ('twitter', 'https://twitter.com/fanta_hfut'),)
 
 DEFAULT_PAGINATION = 10
 
