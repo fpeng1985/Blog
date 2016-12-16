@@ -7,7 +7,7 @@ AUTHOR = '彭斐'
 SITENAME = '彭斐的博客'
 SITEURL = 'https://fpeng1985.github.io'
 
-SITELOGO = SITEURL + '/images/profile.jpg'
+SITELOGO = SITEURL + '/images/profile2.jpg'
 
 #time zone and language settings
 TIMEZONE = 'Asia/Shanghai'
@@ -21,7 +21,7 @@ PLUGIN_PATHS=["plugins"]
 
 #category settings
 USE_FOLDER_AS_CATEGORY = False
-DEFAULT_CATEGORY = 'misc'
+#DEFAULT_CATEGORY = 'misc'
 
 #URL settings
 #RELATIVE_URLS = True
@@ -31,14 +31,17 @@ PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}.html'
 
 # Social settins
-SOCIAL = (('github', 'https://github.com/fpeng1985'),
-          ('twitter', 'https://twitter.com/fanta_hfut'),)
+SOCIAL = (
+    ('github', 'https://github.com/fpeng1985'),
+    ('twitter', 'https://twitter.com/fanta_hfut'),
+)
 
 # Link settings
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         )
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    #('Jinja2', 'http://jinja.pocoo.org/'),
+)
 
 # Feed settings
 FEED_ALL_ATOM = None
@@ -48,6 +51,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 #misc settings
+DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_RETENTION = [".git", ".hg"]
 DEFAULT_PAGINATION = 10
 TYPOGRIFY = True
 
@@ -63,7 +68,6 @@ SITEDESCRIPTION = 'Research and programming.'
 #menu settings
 MAIN_MENU = True
 MENUITEMS = (
-    #('Home', '/index.html'),
     ('Archives', '/archives.html'),
     ('Categories', '/categories.html'),
     ('Tags', '/tags.html'),

@@ -1,4 +1,4 @@
 Title: About Me
-Date: 2013-04-18
+Date: 2016-12-16 12:42
 
-About me content
+PHD student in computer science, research interest include EDA algorithms and QCA circuit.
