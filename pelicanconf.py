@@ -7,7 +7,7 @@ AUTHOR = '彭斐'
 SITENAME = '彭斐的博客'
 SITEURL = 'https://fpeng1985.github.io'
 
-SITELOGO = SITEURL + '/images/profile2.jpg'
+SITELOGO = SITEURL + '/images/profile.jpg'
 
 #time zone and language settings
 TIMEZONE = 'Asia/Shanghai'
