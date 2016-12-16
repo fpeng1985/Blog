@@ -1,6 +1,11 @@
 Title: designer-mod研究状况
 Date: 2016-12-15 12:33
+Modified： 2016-12-16 11:06
 Category: Research
+Tags: research, qca, python
+Slug: qca-research-status
+Authors:彭斐
+Summary: designer-mod开发现状及改进方案
 
 ## 程序流程 ##
 1. 读取命令行参数，找到输入的structure文件，并初始化输出目录。

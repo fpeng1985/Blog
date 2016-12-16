@@ -1,6 +1,10 @@
 Title: 如何编译QCADesigner
 Date: 2016-12-02 23:42
+Modified： 2016-12-16 11:12
 Category: Programming
+Tags: C
+Slug: how to compile QCADesigner
+Summary: The compilation processing of QCADesigner in Windows enviroment
 
 编译环境为Windows10 64位，msys2
 
